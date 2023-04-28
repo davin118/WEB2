@@ -22,7 +22,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     <a class="nav-link" href="personas.html">Personas</a>
                     <a class="nav-link" href="contactos.html">Contactos</a>
                 </div>
@@ -30,9 +30,41 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container mx-auto">
         <h1>Esta es la página de contactos</h1>
     </div>
+    
+   <div class='container mx-auto'>
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            Informacion
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Barrio sutiva, Leon-Nicaragua</li>
+            <li class="list-group-item">22788932</li>
+            <li class="list-group-item">labuena@gmail.com</li>
+        </ul>
+    </div>
+   </div>
+    <div class="container">
+		<h3>Danos tu opinion</h3>
+		<form>
+			<div class="form-group">
+				<label for="nombre">Nombre</label>
+				<input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="email" placeholder="Escribe tu email">
+			</div>
+			<div class="form-group">
+				<label for="comentario">Comentario</label>
+				<textarea class="form-control" id="comentario" rows="5" placeholder="Escribe tu comentario"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary">Enviar comentario</button>
+		</form>
+	</div>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
